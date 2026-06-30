@@ -1,7 +1,35 @@
-# NTESLE-Database-company
-Dummy database creation
+# Company Database Design (NTESLE)
 
-![ERD (14)](https://github.com/mysecret39/NTESLE-Database-company/assets/88777199/28de4523-dc72-4c66-89c9-a5e41865dd93)
+A relational database project for a fictional company — covering ERD design, DDL schema creation, DML data seeding, and a collection of SELECT queries to demonstrate query skills.
 
+## Tech Stack
 
-This project demonstrates my proficiency in writing SELECT queries (DQL) and CREATE TABLE statements (DDL) for a relational database. I designed an ERD to model a simple schema. Using a RDBMS, I created the tables with DDL statements and inserted dummy data. The focus is on writing SELECT statements to query and retrieve data from the single or joined tables, including filtering, sorting, aggregating, and analyzing the dummy data. Overall, this project showcases my ability to create database tables using DDL, and then query the database using basic to intermediate SELECT statements (DQL).
+| Tool | Role |
+|---|---|
+| SQL Server | Database engine |
+| T-SQL | DDL, DML, and DQL |
+
+## Process
+
+1. **ERD** — Designed an entity-relationship diagram to model the company's data entities and relationships.
+2. **DDL** — Wrote `CREATE TABLE` statements with appropriate data types, primary keys, and foreign keys.
+3. **DML** — Inserted realistic dummy data across all tables.
+4. **DQL** — Wrote SELECT queries covering single-table retrieval, multi-table joins, filtering, sorting, and aggregation.
+
+## Files
+
+| File | Description |
+|---|---|
+| `ERD.png` | Entity-relationship diagram |
+| `DDL.sql` | Table creation scripts |
+| `DML.sql` | Data insertion scripts |
+| `SELECT.sql` | Query collection (DQL) |
+| `Simulasi.sql` | Simulation / scenario queries |
+| `Case SELECT Query.docx` | Case study requirements |
+
+## Skills demonstrated
+
+- Entity-relationship modelling
+- Relational schema design (DDL)
+- Data seeding (DML)
+- Basic to intermediate SELECT queries: joins, filters, aggregations, sorting
